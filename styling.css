@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     margin: 8vw;
     margin-bottom: 0px;
+    margin-top: 5vh;
     
     
     background-image: url("./permanant.jpeg");
@@ -44,19 +45,20 @@ body {
     background-size: cover;
 }
 .div{
-    box-sizing: border-box;
-    width: 50vw;
-    max-height: fit-content;
+    box-sizing:content-box;
+    display: box;
+    width: 50%;
+    max-height: min-content;
+    background-size: cover;
     border: #0fa solid;
     margin: 1vw;
-    align-self: stretch;
+    
 }
 
 .sections{
     /* width: 90vh;; */
-    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+    box-sizing: border-box;
     padding: 1.75vw;
     margin-top: 3vw;
     border: 0.7vw;
@@ -109,14 +111,16 @@ body {
 }
 
 .sideimg{
-    display:block;
+    display:flex;
     width: 100%;
-    
+    height: 100%;
+    background-size:auto;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     
 }
+
 #code_img{
     background-image: url("coding.jpg");
     background-repeat: no-repeat;
@@ -133,4 +137,12 @@ a:hover{
 
 a{
     color: whitesmoke;
+}
+
+#profiles{
+    
+    height: 250px;
+    width: fit-content;
+    display: inline-block;
+    margin-left: 1.05vw;
 }
