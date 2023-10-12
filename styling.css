@@ -140,7 +140,7 @@ a{
 }
 
 #profiles{
-    
+    box-sizing: border-box;
     height: 250px;
     width: fit-content;
     display: inline-block;
