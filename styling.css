@@ -146,9 +146,11 @@ a{
 #profiles{
     display: flex;
     box-sizing: border-box;
-    height: 35vh;
+    /* height: 35vh; */
     /* margin: vw;; */
-    width: fit-content;
+    /* width: fit-content; */
+    flex: 1 1 0;
+    width: 0;
     /* display: inline-block; */
     /* margin-left: 1.05vw; */
 }
